@@ -6,6 +6,7 @@
 <a href="https://www.linkedin.com/in/antje-barth"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=25></a>
 <a href="https://www.instagram.com/antje.official/"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" height=25></a>
 <a href="https://youtube.datascienceonaws.com/"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height=25></a>
+<a href="https://meetup.com/data-science-on-aws"><img src="https://img.shields.io/badge/Meetup-f64363?style=for-the-badge&logo=meetup&logoColor=white" height=25></a>
 </p>
 
 <!--
