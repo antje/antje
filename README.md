@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-☁️ Principal Developer Advocate for AI/ML at AWS
+☁️ Member of Technical Staff, Developer Relations Lead @ Amazon AGI Labs
 
 📖 Co-author of the O’Reilly book [Data Science on AWS](https://www.amazon.com/Data-Science-AWS-End-End/dp/1492079391) and [Generative AI on AWS](https://www.amazon.com/Generative-AWS-Context-Aware-Multimodal-Applications/dp/1098159225)
 
