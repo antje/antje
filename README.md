@@ -8,7 +8,7 @@ I think like a PM, execute like a builder, and measure like a growth team. I bui
 
 #### What I'm building
 
-**[product-coach](https://github.com/antje/product-coach)**: a review layer for product decisions. Coaching skills object to your plan using your own numbers. Then a scoreboard checks, weeks later, whether the objection was right. Advice that keeps score on itself. [Try it →](https://product-coach-app.vercel.app)
+**[product-coach](https://github.com/antje/product-coach)**: a review layer for product decisions. Coaching skills object to your plan using your own numbers. Then a scoreboard checks, weeks later, whether the objection was right. Advice that keeps score on itself.
 
 **[bakeoff](https://github.com/antje/bakeoff)**: pick a model by cost per correct call, not by leaderboard. Build an eval from your own agent logs, run it against any model on OpenRouter, and see accuracy, latency and cost side by side.
 
