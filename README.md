@@ -40,9 +40,4 @@ In 2026 I switched sides of the classroom and completed eight [Product School](h
 
 </details>
 
-<!-- TODO(Antje): one or two lines only you can write. Ideas:
-     ⚡ Fun fact: ...
-     🌱 Currently learning: ...
-     📖 Reading: ... -->
-
 📍 San Francisco Bay Area · [antje.dev](https://antje.dev) · [LinkedIn](https://www.linkedin.com/in/antje-barth) · [X](https://x.com/anbarth) · [YouTube](https://www.youtube.com/@AIPerformanceEngineering) · [AWS Blog](https://aws.amazon.com/blogs/aws/author/antjebar)
