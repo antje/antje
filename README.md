@@ -4,7 +4,7 @@
 
 I make AI products successful by making them adoptable. I own the product adoption strategy for Amazon's next-generation AI, from market positioning through activation and retention, working across Research, Product, Engineering, and GTM. I define adoption funnels, run the data to find where users drop off, and drive the product changes that fix it.
 
-I've spent 19 years across enterprise infrastructure, data platforms, and AI, including six at AWS, first from Düsseldorf and then from the Bay Area. Along the way I co-wrote two O'Reilly books and built DeepLearning.AI courses that more than 485,000 people have taken.
+I've spent 19 years across data center infrastructure, data platforms, and AI, including six at AWS, first from Düsseldorf and then from the Bay Area. Along the way I co-wrote two O'Reilly books and built DeepLearning.AI courses that more than 485,000 people have taken.
 
 I think like a PM, execute like a builder, and measure like a growth team. I build with AI every day to help shape where software engineering is heading and keep my product instincts sharp.
 
