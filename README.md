@@ -26,7 +26,7 @@ I think like a PM, execute like a builder, and measure like a growth team. I bui
 
 #### 🎓 Back in school
 
-In 2026 I switched sides of the classroom and completed eight [Product School](https://productschool.com) certifications. Each ended in a capstone: one product call, argued with data and shipped as a public repo. One of them grew up into product-coach. My favorite is the [AI Evals](https://github.com/antje/product-school-ai-evals) capstone, because the honest answer turned out to be "don't ship it yet."
+In 2026 I switched sides of the classroom and completed eight [Product School](https://productschool.com) certifications. Each ended in a capstone: one product call, argued with data and shipped as a public repo. My favorite is the [AI Evals](https://github.com/antje/product-school-ai-evals) capstone, because the honest answer turned out to be "don't ship it yet."
 
 <details>
 <summary>All eight capstones</summary>
