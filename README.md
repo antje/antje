@@ -1,10 +1,12 @@
 ### Hi, I'm Antje 👋
 
-I help people actually use AI, not just try it once. These days that's at [Amazon AGI](https://labs.amazon.science/), where I'm a Member of Technical Staff on AI product and developer experience. I own adoption for Amazon's next-generation models: I find where people drop off between "this demo is cool" and "I use this every day," then work with Research, Product, Engineering, and GTM to fix it.
+🤖 Member of Technical Staff — AI Product & Developer Experience, [Amazon AGI](https://labs.amazon.science/)
+
+I make AI products successful by making them adoptable. I own the product adoption strategy for Amazon's next-generation AI, from market positioning through activation and retention, working across Research, Product, Engineering, and GTM. I define adoption funnels, run the data to find where users drop off, and drive the product changes that fix it.
 
 I've spent 19 years across enterprise infrastructure, data platforms, and AI, including six at AWS, first from Düsseldorf and then from the Bay Area. Along the way I co-wrote two O'Reilly books and built DeepLearning.AI courses that more than 485,000 people have taken.
 
-I build with AI every day, partly because it's the fastest way to see where software engineering is heading, and partly because it's fun.
+I think like a PM, execute like a builder, and measure like a growth team. I build with AI every day to help shape where software engineering is heading and keep my product instincts sharp.
 
 #### 🔨 What I'm building
 
