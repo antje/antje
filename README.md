@@ -1,45 +1,56 @@
-### Hi, I'm Antje 👋
+# Antje Barth
 
-🤖 Member of Technical Staff — AI Product & Developer Experience, [Amazon AGI](https://labs.amazon.science/)
+**AI product strategy · Performance engineering · Developer experience**
 
-I make AI products successful by making them adoptable. I own the product adoption strategy for Amazon's next-generation AI, from market positioning through activation and retention, working across Research, Product, Engineering, and GTM. I define adoption funnels, run the data to find where users drop off, and drive the product changes that fix it.
+I work at the intersection of AI systems and product decisions: what the technology can deliver, how to evaluate it, and what makes it useful to people.
 
-I've spent nearly 20 years across data center infrastructure, data platforms, and AI, including six at AWS, first from Düsseldorf and then from the Bay Area. Along the way I co-wrote two O'Reilly books and built DeepLearning.AI courses that more than 485,000 people have taken.
+My current focus is writing about AI performance engineering. I explore how models run on real hardware, what limits their performance, and how choices in inference, GPU kernels, and serving systems affect latency, throughput, and cost. My writing combines clear explanations, diagrams, and reproducible experiments so readers can understand the mechanisms and check the results.
 
-I think like a PM, execute like a builder, and measure like a growth team. I build with AI every day to help shape where software engineering is heading and keep my product instincts sharp.
+I bring a product management perspective to this work: choosing meaningful metrics, understanding user needs, testing assumptions, and deciding which improvements are worth building. My background spans nearly 20 years across data center infrastructure, data platforms, and AI.
 
-#### 🔨 What I'm building
+## Current work
 
-**[product-coach](https://github.com/antje/product-coach)**: a review layer for product decisions. Coaching skills object to your plan using your own numbers, and weeks later a scoreboard checks whether the objection was right. Advice that keeps score on itself.
+**[AI performance research](https://github.com/antje/research)**  
+Technical articles and runnable experiments on inference systems, GPU performance, scheduling, and serving economics. Each article starts with a specific question, explains the mechanism, and provides the evidence behind its conclusions.
 
-**[bakeoff](https://github.com/antje/bakeoff)**: pick a model by cost per correct call, not by leaderboard. Build an eval from your own agent logs, run it against any model on OpenRouter, and compare accuracy, latency, and cost side by side.
+A few places to start:
 
-**[research](https://github.com/antje/research)**: runnable notes on inference systems. Kernels, schedulers, profilers, and what it really costs to serve models on NVIDIA, AMD, TPU, Trainium, Cerebras, and d-Matrix silicon.
+- **[More batch won’t make decode compute-bound](https://github.com/antje/research/tree/main/posts/2026-09-28-pm-decode-wants-sram)** — How KV-cache traffic limits decode performance, even as batch size grows.
+- **[Why a bad guesser can’t skew what your model says](https://github.com/antje/research/tree/main/posts/2026-10-25-pm-bad-guesser-same-answer)** — How speculative decoding preserves the target model’s output distribution while changing its speed.
 
-#### 📚 Writing and teaching
+**[bakeoff](https://github.com/antje/bakeoff)**  
+A model evaluation tool built around your own agent workloads. Compare accuracy, latency, and cost, then use cost per correct call to inform model selection.
 
-- O'Reilly co-author: [Generative AI on AWS](https://www.amazon.com/Generative-AWS-Context-Aware-Multimodal-Applications/dp/1098159225) (2023) and [Data Science on AWS](https://www.amazon.com/Data-Science-AWS-End-End/dp/1492079391) (2021)
-- DeepLearning.AI instructor and curriculum developer: [Generative AI with Large Language Models](https://www.deeplearning.ai/courses/generative-ai-with-llms/) (440,000+ learners) and Practical Data Science (45,000+ learners)
-- Latest keynote: [Perception Agents](https://www.youtube.com/watch?v=2JX6JYyQG4Y), AI Engineer World's Fair 2026, on agents that see and act on a screen the way people do
-- Keynotes and conference chair: AI Engineer World's Fair, O'Reilly AI Superstream, Open Source Summit NA, MCP Dev Summit
-- Co-host of the [AI Performance Engineering Meetup](https://www.meetup.com/ai-performance-engineering/) and co-founder of the Düsseldorf chapter of [Women in Big Data](https://www.womeninbigdata.org/)
+**[product-coach](https://github.com/antje/product-coach)**  
+A project exploring how product teams can review decisions and learn from their outcomes. Coaching skills challenge assumptions using the team’s own evidence; a companion app is in development to track whether that advice holds up.
 
-#### 🎓 Back in school
+## Product strategy and practice
 
-In 2026 I switched sides of the classroom and completed eight [Product School](https://productschool.com) certifications. Each ended in a capstone: one product call, argued with data and shipped as a public repo. My favorite is the [AI Evals](https://github.com/antje/product-school-ai-evals) capstone, because the honest answer turned out to be "don't ship it yet."
+My product work spans strategy, developer experience, adoption, analytics, and experimentation. I’m interested in how teams turn an uncertain opportunity into a clear decision: what to build, what evidence to gather, how to measure success, and when to change direction.
 
-<details>
-<summary>All eight capstones</summary>
+Selected case studies from my Product School capstone work:
 
-- **Product Leadership**: turn a mental-wellness app into an AI companion that builds memory over time, without optimizing for dependency · [repo](https://github.com/antje/product-school-product-leadership) · [deck](https://gamma.app/docs/Fable-the-companion-bet-626ucc2yg09j66j)
-- **Product Analytics & Experimentation**: trial conversion stuck at 2% for 13 months, so fix activation before acquisition · [repo](https://github.com/antje/product-school-product-analytics-and-experimentation)
-- **AI Product Management**: an AI copilot that turns a P0 Slack thread into a ranked, source-cited shortlist · [repo](https://github.com/antje/product-school-ai-product-management) · [prototype](https://ai-pm-synthesis.lovable.app)
-- **AI Product Strategy for Leaders**: product-coach as a real strategy, with data flywheel, kill switch, pricing, and board pitch · [repo](https://github.com/antje/product-school-ai-product-strategy-for-leaders) · [deck](https://antje.github.io/product-school-ai-product-strategy-for-leaders/final-presentation.html)
-- **Claude Code for PMs**: why four reliable responders went quiet after a release, from interviews, tickets, metrics, and routing code · [repo](https://github.com/antje/product-school-claude-code-for-pms) · [report](https://antje.github.io/product-school-claude-code-for-pms/final-report.html)
-- **Go-to-Market**: group trips where every friend pays their own seat, launched city by city · [repo](https://github.com/antje/product-school-go-to-market) · [deck](https://antje.github.io/product-school-go-to-market/06-launch/final-presentation.html)
-- **Agentic Workflows & Loops**: an agent drafts the weekly leadership update, a critic checks it, and a human signs off · [repo](https://github.com/antje/product-school-agentic-workflows) · [pitch](https://antje.github.io/product-school-agentic-workflows/pitch.html)
-- **AI Evals**: should this competitive-intelligence agent ship? Hold, and here's what would change the answer · [repo](https://github.com/antje/product-school-ai-evals) · [deck](https://antje.github.io/product-school-ai-evals/06-culture/lab-2-final-pitch.html)
+- **[AI product strategy](https://github.com/antje/product-school-ai-product-strategy-for-leaders)** — A strategy for product-coach covering positioning, pricing, a data flywheel, and criteria for stopping the investment.
+- **[Product analytics and experimentation](https://github.com/antje/product-school-product-analytics-and-experimentation)** — An activation and experimentation strategy for a SaaS product with stalled trial conversion.
+- **[AI evaluations](https://github.com/antje/product-school-ai-evals)** — An evaluation of whether a competitive-intelligence agent is ready to ship, with a recommendation to hold and explicit conditions for reconsidering.
 
-</details>
+## Books and teaching
 
-📍 San Francisco Bay Area · [antje.dev](https://antje.dev) · [LinkedIn](https://www.linkedin.com/in/antje-barth) · [X](https://x.com/anbarth) · [YouTube](https://www.youtube.com/@AIPerformanceEngineering) · [AWS Blog](https://aws.amazon.com/blogs/aws/author/antjebar)
+I co-authored two O’Reilly books:
+
+- **[Generative AI on AWS](https://www.amazon.com/Generative-AWS-Context-Aware-Multimodal-Applications/dp/1098159225)** — Building generative AI applications.
+- **[Data Science on AWS](https://www.amazon.com/Data-Science-AWS-End-End/dp/1492079391)** — Building data science and machine learning workflows.
+
+I’m also a DeepLearning.AI instructor and curriculum developer for **[Generative AI with Large Language Models](https://www.deeplearning.ai/courses/generative-ai-with-llms/)** and **Practical Data Science**.
+
+## Speaking and community
+
+I speak about AI systems, developer experience, and applied AI. My speaking and conference work includes AI Engineer World’s Fair, O’Reilly AI Superstream, Open Source Summit North America, and MCP Dev Summit.
+
+- **[Perception Agents](https://www.youtube.com/watch?v=2JX6JYyQG4Y)** — My AI Engineer World’s Fair 2026 keynote on agents that see and act on a screen.
+- Co-host of the **[AI Performance Engineering Meetup](https://www.meetup.com/ai-performance-engineering/)**.
+- Co-founder of the Düsseldorf chapter of **[Women in Big Data](https://www.womeninbigdata.org/)**.
+
+---
+
+San Francisco Bay Area · [Website](https://antje.dev) · [LinkedIn](https://www.linkedin.com/in/antje-barth) · [YouTube](https://www.youtube.com/@AIPerformanceEngineering) · [X](https://x.com/anbarth)
